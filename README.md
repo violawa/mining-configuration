@@ -1,4 +1,4 @@
-Sure, here's a GitHub readme in English:
+Certainly! Here's the expanded version of the GitHub readme with the additional notes for different operating systems:
 
 ---
 
@@ -57,6 +57,23 @@ Feel free to use this configuration file as a template for your own mining setup
 ```
 
 For the `"user"` field, the format is `NAME_COIN:deposit_address_coin.build_name` (without spaces). For example, `"user": "TRX:TFzUe4DE33ZSKsgV4CWmpC2irdgyz7Gu5.alpheratzv1"` where "TRX" is the coin name, "TFzUe4DE33ZSKsgV4CWmpC2irdgyz7Gu5" is the deposit address, and "alpheratzv1" is the build name without spaces.
+
+### Running on Different Operating Systems
+
+- **Windows**:
+  ```bash
+  xmrig.exe --donate-level 5 -o rx.unminieable.com:3333 -u TRX:TFzUe4DE33ZSKsgV4CWmpC2irdgyz7Gu5.alpheratzv1 -p x -k -a rx/0
+  ```
+
+- **Linux**:
+  ```bash
+  ./xmrig --donate-level 5 -o rx.unminieable.com:3333 -u TRX:TFzUe4DE33ZSKsgV4CWmpC2irdgyz7Gu5.alpheratzv1 -p x -k -a rx/0
+  ```
+
+- **macOS**:
+  ```bash
+  ./xmrig --donate-level 5 -o rx.unminieable.com:3333 -u TRX:TFzUe4DE33ZSKsgV4CWmpC2irdgyz7Gu5.alpheratzv1 -p x -k -a rx/0
+  ```
 
 ---
 
