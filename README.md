@@ -4,7 +4,7 @@ Certainly! Here's the expanded version of the GitHub readme with the additional 
 
 # Mining Configuration Example
 
-This repository provides an example of a mining configuration file in JSON format.
+This is a configuration for mining cryptocurrency using mining software. It's in a format similar to JSON, commonly used in programming. This configuration provides details about the mining server, the algorithm used, and the required credentials. The algorithm used here is "rx/0," which is an algorithm used to mine a specific cryptocurrency.
 
 ## Configuration Details
 
